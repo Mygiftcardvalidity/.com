@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: monospace;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 10px;
+  background-color: rgba(26, 107, 26, 0.849);
+}
+
+.logo h3 {
+  font-size: 2rem;
+  padding-top: 4px;
+}
+.logo a {
+  color: black;
+}
+.iconhead {
+  display: flex;
+}
+.line {
+  width: 90%;
+  height: 2px;
+  background-color: gold;
+  margin: auto;
+}
+.linespace {
+  height: 16px;
+}
+.space {
+  padding-left: 40px;
+}
+
+.description {
+  padding: 28px 8px;
+}
+
+.description h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+
+.description h5 {
+  font-size: 1.6rem;
+  padding: 0 10px;
+  line-height: 20px;
+}
+form input[type="text"] {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  border: 2px solid rgb(233, 200, 14);
+}
+
+form input[type="text"]:focus {
+  outline: none;
+  transition: 0.6s ease;
+  background-color: whitesmoke;
+  padding-left: 14px;
+}
+.inputspace {
+  height: 26px;
+}
+.num,
+.pin {
+  margin: auto;
+  padding-left: 6px;
+  border-radius: 4px;
+}
+
+.currencysec {
+  display: flex;
+  padding: 18px 20px;
+}
+
+.currencysec h6 {
+  font-size: 1.9rem;
+  padding: 10px 4px 0px 0px;
+}
+.currencysec label {
+  padding: 10px;
+  font-size: 1.8rem;
+}
+form input[type="checkbox"] {
+  width: 20px;
+  /* border: 2px solid black; */
+  /* color: gold; */
+}
+
+form input[type="checkbox"]:focus {
+  background: gold;
+}
+
+.remainbal {
+  width: 90%;
+  height: 36px;
+  background-color: rgba(26, 107, 26, 0.849);
+  border-radius: 3px;
+  margin: auto;
+}
+
+.remainbal h6 {
+  font-size: 1.8rem;
+  padding: 8px 0 0 10px;
+  color: rgba(0, 0, 0, 0.863);
+}
+/* error */
+.remainbalerr {
+  width: 90%;
+  height: 36px;
+  background-color: rgba(255, 0, 0, 0.842);
+  border-radius: 3px;
+  margin: auto;
+}
+.remainbalerr h6 {
+  font-size: 1.8rem;
+  padding: 8px 0 0 10px;
+  color: rgba(0, 0, 0, 0.863);
+}
+.checkout {
+  display: flex;
+  padding: 20px 0 0 20px;
+}
+
+form input[type="submit"] {
+  width: 50%;
+  height: 36px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.8rem;
+  font-weight: 530;
+  background-color: transparent;
+  border: 1px solid rgb(233, 200, 14);
+}
+.checkout p {
+  width: 15%;
+  height: 36px;
+  /* border: 1px 1px 1px 0 solid black; */
+  border-top: 1px solid rgb(233, 200, 14);
+  border-right: 1px solid rgb(233, 200, 14);
+  border-bottom: 1px solid rgb(233, 200, 14);
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.note {
+  font-size: 14px;
+  padding: 10px 0 0 20px;
+}

